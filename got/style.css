@@ -1,0 +1,13 @@
+@charset "UTF8";
+body {
+    background-image: url("https://images-americanas.b2w.io/produtos/01/00/oferta/43957/9/43957987_1GG.jpg");
+}
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.primeiro-p {
+    text-align: left;
+    text-indent: 0px;
+}
