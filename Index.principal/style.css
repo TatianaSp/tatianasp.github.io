@@ -13,9 +13,17 @@ h2 {
     
 }
 
+h3 {
+    font-family: 'Lucida Sans Unicode';
+    text-align: center;
+    
+}
+
 p {
     font-family: 'Lucida Sans';
     text-align: justify;
+    text-indent: 50px;
+    
 }
 /* Formatação da foto com legenda ps: aprimorar mais, pq ta ruim*/
 figure.foto-legenda {
