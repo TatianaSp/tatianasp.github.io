@@ -1,5 +1,5 @@
 body {
-    background-color: azure
+    background-color: #bff6f9;
 }
 h1 {
     font-family: 'Times New Roman';
@@ -24,6 +24,13 @@ p {
     text-align: justify;
     text-indent: 50px;
     
+}
+
+figure.inicio {
+    position: relative;
+    left: 685px; 
+    top: 20px;
+
 }
 /* Formatação da foto com legenda ps: aprimorar mais, pq ta ruim*/
 figure.foto-legenda {
@@ -71,6 +78,21 @@ nav#menu li{
     background-color:#dddddd;
     padding: 10px;
     margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover {
+    background: #606060
+}
+
+nav#menu a{
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color:#ffffff;
+    text-decoration: none;
 }
 
 nav#menu h3 {
